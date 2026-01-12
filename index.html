@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern blog featuring insights on technology, design, and creativity.">
+    <meta name="keywords" content="blog, technology, design, creativity, articles">
+    <meta name="author" content="The Blog">
+    <title>The Blog | Modern Insights</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">The Blog</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Thoughts & Ideas</h1>
+            <p class="hero-subtitle">Exploring technology, design, and creativity through thoughtful writing.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Blog Posts Section -->
+        <section class="posts-section">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="posts-grid" id="posts-container">
+                <!-- Blog posts will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2 class="about-title">About This Blog</h2>
+                    <p class="about-text">
+                        Welcome to The Blog, a space dedicated to exploring the intersection of technology, 
+                        design, and creativity. Here, we share insights, tutorials, and thoughts that inspire 
+                        and inform.
+                    </p>
+                    <p class="about-text">
+                        Whether you're a developer, designer, or simply curious about the digital world, 
+                        you'll find something valuable here. Our articles are crafted with care, aiming to 
+                        provide depth while remaining accessible.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Articles</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-label">Readers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Authors</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">&copy; 2026 The Blog. All rights reserved.</p>
+            <p class="footer-text">Built with HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
